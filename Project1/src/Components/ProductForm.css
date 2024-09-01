@@ -1,0 +1,19 @@
+.newProduct-form{
+    width: 25rem;
+    height: 10rem ;
+    background-color: rgb(155, 75, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.newProduct-button{
+    padding: 0.8rem 1.5rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: none;
+}

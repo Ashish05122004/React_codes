@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.product-item{
+    background-color: aqua;
+    border-radius: 6px;
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.product-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: yellow;
+    width: 25%;
+    height: 80%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 5px;
+}
+.product-name{
+    color: red;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}

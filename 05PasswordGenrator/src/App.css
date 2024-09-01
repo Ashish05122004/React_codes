@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin : 0 auto;
+    padding: 2rem;
+    background-color: #4a4e69;
+    color: #e85d04;
+}
+.heading{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.password-sec{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.password-sec input{
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.copy-btn{
+    background-color: blue;
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+}
+.copy-btn:hover{
+    opacity: 0.5;
+}
+.input-sec{
+    display: flex;
+    gap: 1.5rem;
+}

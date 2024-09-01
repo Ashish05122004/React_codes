@@ -1,0 +1,28 @@
+.counter{
+   
+    width: 20rem;
+    height: 4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter-btn{
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.counter-content{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 204, 0);
+}
